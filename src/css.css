@@ -1,0 +1,20 @@
+  h1 {
+     font-family: Impact, fantasy;
+     color: blue;
+        display: flex; /* Cria um container flex */
+        justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        align-items: center; /* Centraliza o conteúdo verticalmente */
+        text-align: center; /* Centraliza o texto */
+        line-height: 1.5; /* Define a altura da linha para alinhar verticalmente o texto */
+        
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center; 
+        line-height: 1.5;
+    }
+    
+  
