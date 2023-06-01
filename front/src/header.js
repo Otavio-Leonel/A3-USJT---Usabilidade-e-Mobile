@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './css/style.css';
 import logo from './img/musikdin-logo.png';
 import Body from './body';
-import axios from 'axios';
+// import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
