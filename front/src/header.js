@@ -32,7 +32,7 @@ function Header() {
                             </div>
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav justify-content-end align-items-lg-center flex-grow-1 pe-3">
-                                    <li class="nav-item"><a class="nav-link" href={Body}>Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
                                     <li class="nav-item"><form class="d-flex" role="search">
                                         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" />
