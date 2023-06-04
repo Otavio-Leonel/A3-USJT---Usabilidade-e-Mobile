@@ -12,7 +12,7 @@ export function Router() {
             <Routes>
                 <Route path="*" element={<Body />} />
 
-                <Route path="/pesquisa" element={<Pesquisa />} />
+                <Route path="/pesquisa/:pesquisa" element={<Pesquisa />} />
 
                 <Route path="/cadastro" element={<Cadastro />} />
 
