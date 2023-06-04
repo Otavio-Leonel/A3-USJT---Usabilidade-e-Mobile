@@ -11,7 +11,7 @@ import carde from './img/card-estabelecimento.png'
 function Body() {
     return (
         <>
-            <div class="banner">
+            <div class="banner" >
                 <div class="col-12 banner-conteudo container">
                     <h1>Bem vindo ao Musikdin</h1>
                     <p>Descubra o palco perfeito para a sua música!</p>
