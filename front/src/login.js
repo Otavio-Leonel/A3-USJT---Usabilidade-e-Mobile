@@ -39,7 +39,7 @@ function Login() {
                                         <label class="form-check-label" for="exampleCheck1">Lembrar</label>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-primary btn-formsc">Enviar</button>
+                                    <a type="submit" class="btn btn-primary btn-formsc" href="/pesquisa">Enviar</a>
                                 </div>
                             </form>
                         </div>

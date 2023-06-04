@@ -35,7 +35,7 @@ function Header() {
                                     <li class="nav-item"><a class="nav-link" href="/body">Home</a></li>
                                     <li class="nav-item"><form class="d-flex" role="search">
                                         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" />
-                                        <button class="btn btn-outline-success pesquisa-estilo" type="submit" href="/pesquisa"><FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /></button>
+                                        <a class="btn btn-outline-success pesquisa-estilo" type="submit" href="/pesquisa"><FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /></a>
                                     </form>
                                     </li>
                                     <li class="nav-item"><a class="btn btn-primary btn-header" href="/cadastro" role="button">Fazer login</a></li>

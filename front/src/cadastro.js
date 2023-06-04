@@ -94,7 +94,7 @@ function Cadastro() {
                                     <input type="text" class="form-control" id="inputCep" placeholder="CEP" />
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-primary btn-formsc">Enviar</button>
+                                    <a type="submit" class="btn btn-primary btn-formsc" href="/login">Enviar</a>
                                 </div>
                             </form>
                         </div>

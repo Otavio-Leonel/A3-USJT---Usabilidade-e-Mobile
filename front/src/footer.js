@@ -19,18 +19,16 @@ function Footer() {
                     <div class="col-12 col-md-3 col-lg-3 colunas-footer">
                         <p class="h2">Navegação</p>
                         <ul class="list-unstyled list-footer d-flex flex-column">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Quem Somos</a></li>
-                            <li><a href="#">Serviços</a></li>
-                            <li><a href="#">Avaliações</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="/body">Home</a></li>
+                            <li><a href="/pesquisa">Serviços</a></li>
+                            <li><a href="/cadastro">Cadastro</a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-3 col-lg-3 colunas-footer">
                         <p class="h2">Serviços</p>
                         <ul class="list-unstyled list-footer d-flex flex-column">
-                            <li><a href="#">Encontrar Músico</a></li>
-                            <li><a href="#">Encontrar Banda</a></li>
+                            <li><a href="/bandas">Encontrar Músico</a></li>
+                            <li><a href="/estabelecimento">Encontrar Banda</a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-3 col-lg-3 colunas-footer">
