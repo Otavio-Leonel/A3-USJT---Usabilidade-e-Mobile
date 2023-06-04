@@ -4,10 +4,15 @@ import ReactDOM from 'react-dom'
 import './css/style.css';
 import cardb from './img/card-band.png'
 import carde from './img/card-estabelecimento.png'
+import { useParams } from 'react-router-dom';
 
 function Pesquisa() {
+
+    const { pesquisa } = useParams()
+
     return (
         <>
+            <h1>{pesquisa}</h1>
             <div class="breadcrumb">
                 <div class="col-12 breadcrumb-conteudo container">
                     <h1>Resultados</h1>
