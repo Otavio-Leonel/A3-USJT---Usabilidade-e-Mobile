@@ -6,6 +6,10 @@ import logo from './img/musikdin-logo.png';
 import conts from './img/cantora-contato.png';
 
 function Formulario() {
+
+    return(
+        <></>
+    )
     return (
         <>
             <div class="div-contato">
