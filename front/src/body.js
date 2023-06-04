@@ -15,7 +15,7 @@ function Body() {
                 <div class="col-12 banner-conteudo container">
                     <h1>Bem vindo ao Musikdin</h1>
                     <p>Descubra o palco perfeito para a sua música!</p>
-                    <a href="#" class="btn-banner">Saiba mais</a>
+                    <a href="/pesquisa" class="btn-banner">Saiba mais</a>
                 </div>
             </div>
 
@@ -27,7 +27,6 @@ function Body() {
                             <p>
                                 Nossa ideia com esse site é fazer com que bandas e locais para show consigam se encontrar de uma forma mais simples e prática, fornecendo um serviço para que eles possam se cadastrar e colocar suas informações de preferência, após realizar o cadastro as bandas iram aparecer em uma espécie de catalogo para que pessoas que buscam musicos para tocar em shows e festas possam procurar de acordo com seus gostos e caso tenham interesse na banda ou músico eles podem simplismente enviar menagem diretamente para eles e decidirem como iram prosseguir, assim como bandas podem procurar locais que os agredem ou sejam mais próximos de onde eles estão. 
                             </p>
-                            <a href="#" class="btn-banner">Saiba mais</a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-6">
                             <img src={quems} alt="Minha Figura" />
@@ -48,7 +47,7 @@ function Body() {
                                 <div class="card-body">
                                     <h5 class="card-title">Musico</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                    <a href="/bandas" class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +57,7 @@ function Body() {
                                 <div class="card-body">
                                     <h5 class="card-title">Estabelecimento</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Ver mais</a>
+                                    <a href="/estabelecimento" class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
                         </div>

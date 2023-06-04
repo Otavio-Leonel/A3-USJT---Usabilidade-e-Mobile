@@ -3,6 +3,8 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Cadastro from "./cadastro";
 import Login from "./login";
 import Pesquisa from "./pesquisa";
+import Estabelecimento from "./estabelecimento";
+import Bandas from "./bandas";
 
 
 export function Router() {
@@ -17,6 +19,10 @@ export function Router() {
                 <Route path="/cadastro" element={<Cadastro />} />
 
                 <Route path="/login" element={<Login/>} />
+
+                <Route path="/bandas" element={<Bandas />} />
+
+                <Route path="/estabelecimento" element={<Estabelecimento/>} />
             </Routes>
         </BrowserRouter>
     )
