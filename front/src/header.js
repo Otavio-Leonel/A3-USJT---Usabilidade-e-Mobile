@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './css/style.css';
 import logo from './img/musikdin-logo.png';
 import Body from './body';
-import axios from 'axios';
+// import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -32,7 +32,7 @@ function Header() {
                             </div>
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav justify-content-end align-items-lg-center flex-grow-1 pe-3">
-                                    <li class="nav-item"><a class="nav-link" href={Body}>Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
                                     <li class="nav-item"><form class="d-flex" role="search">
                                         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" />

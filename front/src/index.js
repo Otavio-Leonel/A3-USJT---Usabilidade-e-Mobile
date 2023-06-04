@@ -2,14 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/style.css';
-import logo from './img/musikdin-logo.png';
-import Body from './body';
 import Header from './header';
 import Footer from './footer';
-import Pesquisa from './pesquisa';
 import Formulario from './formulario';
-import Cadastro from './cadastro';
-import Login from './login';
+import { Router } from './router';
 
 
 export default function App() {
@@ -23,14 +19,7 @@ export default function App() {
          <Header />
          {/* header fim */}
 
-         <Body />
-
-         {/* <Pesquisa /> */}
-
-         {/* <Cadastro /> */}
-
-         {/* <Login/> */}
-
+         <Router/>
 
          {/* footer inicio */}
          <Formulario/>

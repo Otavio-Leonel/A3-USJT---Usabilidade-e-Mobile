@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom'
 import './css/style.css';
 import logo from './img/musikdin-logo.png';
-import axios from 'axios';
+// import axios from 'axios';
 
 
 function Footer() {
