@@ -1,27 +1,48 @@
-const express = require ('express');
+const express = require('express');
 const app = express();
-const cadastro = {};
-const axios = require("axios")
 app.use(express.json());
 
-app.put ('/cadastro', async (req, res) => { /* Aqui  o POST é uma rota para /cadastro que esta no terminal e dai */
-    const novoUsuario = req.body;
-    cadastro.push(novoUsusario);
-    res.status(201).json(novoUsuario)
-});
-await axios.post("http://localhost:9000/eventos", {
-    tipo: "Usuario1",
-    dados: {
-        nome: "Maria",
-        idade: "" ,
-        email: " @gmail.com",
-        senha: " ",
-        cpf: "   .   .   -  "
-    }
+let cadastro = {
+  nome: "nome: ",
+  cpf: "CPF: ",
+  endereco: "Endereço: ",
+  telefone: "Telefone: ",
+  email: "E-mail: ",
+  senha: "Senha: ",
+};
 
-    }
-)
-app.listen (4000, () => {
-    console.log('Cadastro rodando na Porta 4000')
+const axios = require("axios");
+
+app.put('/cadastro', (req, res) => {
+  const { nome, cpf, endereco, telefone, email, senha } = req.body;
+  cadastro = { nome, cpf, endereco, telefone, email, senha };
+  res.status(201).send(cadastro);
 });
 
+app.post('/eventos', async (req, res) => {
+  const { tipo, dados } = req.body;
+  if (tipo === "Usuario01") {
+    try {
+      await axios.post("http://localhost:3000/eventos", {
+        tipo: "Usuario01",
+        dados: {
+          nome: dados.nome,
+          cpf: dados.cpf,
+          endereco: dados.endereco,
+          telefone: dados.telefone,
+          email: dados.email,
+          senha: dados.senha,
+        },
+      });
+      res.status(200).send("Usuário cadastrado com sucesso!");
+    } catch (error) {
+      res.status(500).send("Erro ao cadastrar usuário.");
+    }
+  } else {
+    res.status(400).send("Tipo de usuário inválido.");
+  }
+});
+
+app.listen(4000, () => {
+  console.log('Cadastro rodando na Porta 4000')
+});
